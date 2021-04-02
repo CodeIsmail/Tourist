@@ -7,25 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		111B03EE2614A1E200621C3B /* CLPlacemark+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111B03ED2614A1E200621C3B /* CLPlacemark+Extension.swift */; };
+		11498DBF260EA7DE002C9B59 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11498DBE260EA7DE002C9B59 /* PhotoCollectionViewCell.swift */; };
+		118D0C552613C22F005DEE8B /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118D0C542613C22E005DEE8B /* Config.swift */; };
+		11B8651826122F230028E6E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B8651726122F230028E6E1 /* SceneDelegate.swift */; };
+		11B8651C26123C190028E6E1 /* PinAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B8651B26123C190028E6E1 /* PinAnnotation.swift */; };
+		11B992282615B03F0046CB02 /* PhotoAlbumViewController+CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B992272615B03F0046CB02 /* PhotoAlbumViewController+CollectionView.swift */; };
+		11B9922B2615B0BA0046CB02 /* PhotoAlbumViewController+MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B9922A2615B0BA0046CB02 /* PhotoAlbumViewController+MapView.swift */; };
+		11B992312615B2030046CB02 /* TravelViewController+MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B992302615B2030046CB02 /* TravelViewController+MapView.swift */; };
 		11DAD6BF260762F3005706C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DAD6BE260762F3005706C1 /* AppDelegate.swift */; };
-		11DAD6C1260762F3005706C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DAD6C0260762F3005706C1 /* SceneDelegate.swift */; };
-		11DAD6C3260762F3005706C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DAD6C2260762F3005706C1 /* ViewController.swift */; };
+		11DAD6C3260762F3005706C1 /* TravelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DAD6C2260762F3005706C1 /* TravelViewController.swift */; };
 		11DAD6C6260762F3005706C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11DAD6C4260762F3005706C1 /* Main.storyboard */; };
 		11DAD6C9260762F4005706C1 /* Tourist.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 11DAD6C7260762F3005706C1 /* Tourist.xcdatamodeld */; };
 		11DAD6CB260762F8005706C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11DAD6CA260762F8005706C1 /* Assets.xcassets */; };
 		11DAD6CE260762F8005706C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11DAD6CC260762F8005706C1 /* LaunchScreen.storyboard */; };
+		11DAD6E12607EE1A005706C1 /* PhotoAlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DAD6E02607EE1A005706C1 /* PhotoAlbumViewController.swift */; };
+		11DF76CF260A97B90050FADA /* PhotoSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DF76CE260A97B90050FADA /* PhotoSearchResponse.swift */; };
+		11DF76D2260A99350050FADA /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DF76D1260A99350050FADA /* ErrorResponse.swift */; };
+		11FBA378260961A20042F152 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FBA377260961A20042F152 /* DataController.swift */; };
+		11FBA37B260963980042F152 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FBA37A260963980042F152 /* ApiClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		111B03ED2614A1E200621C3B /* CLPlacemark+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLPlacemark+Extension.swift"; sourceTree = "<group>"; };
+		11498DBE260EA7DE002C9B59 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		116CDB2826175553000438DD /* Keys.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Keys.xcconfig; sourceTree = "<group>"; };
+		118D0C542613C22E005DEE8B /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		11B8651726122F230028E6E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		11B8651B26123C190028E6E1 /* PinAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinAnnotation.swift; sourceTree = "<group>"; };
+		11B992272615B03F0046CB02 /* PhotoAlbumViewController+CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PhotoAlbumViewController+CollectionView.swift"; sourceTree = "<group>"; };
+		11B9922A2615B0BA0046CB02 /* PhotoAlbumViewController+MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PhotoAlbumViewController+MapView.swift"; sourceTree = "<group>"; };
+		11B992302615B2030046CB02 /* TravelViewController+MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TravelViewController+MapView.swift"; sourceTree = "<group>"; };
 		11DAD6BB260762F3005706C1 /* Tourist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tourist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11DAD6BE260762F3005706C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		11DAD6C0260762F3005706C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		11DAD6C2260762F3005706C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		11DAD6C2260762F3005706C1 /* TravelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelViewController.swift; sourceTree = "<group>"; };
 		11DAD6C5260762F3005706C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		11DAD6C8260762F3005706C1 /* Tourist.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tourist.xcdatamodel; sourceTree = "<group>"; };
 		11DAD6CA260762F8005706C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11DAD6CD260762F8005706C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11DAD6CF260762F8005706C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11DAD6E02607EE1A005706C1 /* PhotoAlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAlbumViewController.swift; sourceTree = "<group>"; };
+		11DF76CE260A97B90050FADA /* PhotoSearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSearchResponse.swift; sourceTree = "<group>"; };
+		11DF76D1260A99350050FADA /* ErrorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorResponse.swift; sourceTree = "<group>"; };
+		11FBA377260961A20042F152 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		11FBA37A260963980042F152 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +64,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		111B03EC2614A1BB00621C3B /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				111B03ED2614A1E200621C3B /* CLPlacemark+Extension.swift */,
+				118D0C542613C22E005DEE8B /* Config.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		11B992232615AF5C0046CB02 /* PhotoAlbumViewController */ = {
+			isa = PBXGroup;
+			children = (
+				11DAD6E02607EE1A005706C1 /* PhotoAlbumViewController.swift */,
+				11B992272615B03F0046CB02 /* PhotoAlbumViewController+CollectionView.swift */,
+				11B9922A2615B0BA0046CB02 /* PhotoAlbumViewController+MapView.swift */,
+			);
+			path = PhotoAlbumViewController;
+			sourceTree = "<group>";
+		};
+		11B992242615AF8E0046CB02 /* TravelViewController */ = {
+			isa = PBXGroup;
+			children = (
+				11DAD6C2260762F3005706C1 /* TravelViewController.swift */,
+				11B992302615B2030046CB02 /* TravelViewController+MapView.swift */,
+			);
+			path = TravelViewController;
+			sourceTree = "<group>";
+		};
+		11B992252615AFA90046CB02 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				11DAD6C4260762F3005706C1 /* Main.storyboard */,
+				11DAD6CC260762F8005706C1 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
 		11DAD6B2260762F3005706C1 = {
 			isa = PBXGroup;
 			children = (
@@ -58,16 +120,80 @@
 		11DAD6BD260762F3005706C1 /* Tourist */ = {
 			isa = PBXGroup;
 			children = (
-				11DAD6BE260762F3005706C1 /* AppDelegate.swift */,
-				11DAD6C0260762F3005706C1 /* SceneDelegate.swift */,
-				11DAD6C2260762F3005706C1 /* ViewController.swift */,
-				11DAD6C4260762F3005706C1 /* Main.storyboard */,
 				11DAD6CA260762F8005706C1 /* Assets.xcassets */,
-				11DAD6CC260762F8005706C1 /* LaunchScreen.storyboard */,
 				11DAD6CF260762F8005706C1 /* Info.plist */,
-				11DAD6C7260762F3005706C1 /* Tourist.xcdatamodeld */,
+				11B992252615AFA90046CB02 /* Storyboard */,
+				111B03EC2614A1BB00621C3B /* Util */,
+				11DAD6DA2607ED7B005706C1 /* Delegates */,
+				11DAD6DD2607EDBD005706C1 /* Controllers */,
+				11DAD6DB2607ED96005706C1 /* Views */,
+				11DAD6DC2607EDA3005706C1 /* Data */,
+				116CDB2826175553000438DD /* Keys.xcconfig */,
 			);
 			path = Tourist;
+			sourceTree = "<group>";
+		};
+		11DAD6DA2607ED7B005706C1 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				11B8651726122F230028E6E1 /* SceneDelegate.swift */,
+				11DAD6BE260762F3005706C1 /* AppDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		11DAD6DB2607ED96005706C1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				11498DBE260EA7DE002C9B59 /* PhotoCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		11DAD6DC2607EDA3005706C1 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				11DAD6E42607EE5B005706C1 /* Local */,
+				11DAD6E32607EE3F005706C1 /* Remote */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		11DAD6DD2607EDBD005706C1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				11B992242615AF8E0046CB02 /* TravelViewController */,
+				11B992232615AF5C0046CB02 /* PhotoAlbumViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		11DAD6E32607EE3F005706C1 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				11DF76CD260A97840050FADA /* Response */,
+				11FBA37A260963980042F152 /* ApiClient.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		11DAD6E42607EE5B005706C1 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				11DAD6C7260762F3005706C1 /* Tourist.xcdatamodeld */,
+				11FBA377260961A20042F152 /* DataController.swift */,
+				11B8651B26123C190028E6E1 /* PinAnnotation.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		11DF76CD260A97840050FADA /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				11DF76CE260A97B90050FADA /* PhotoSearchResponse.swift */,
+				11DF76D1260A99350050FADA /* ErrorResponse.swift */,
+			);
+			path = Response;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +212,8 @@
 			dependencies = (
 			);
 			name = Tourist;
+			packageProductDependencies = (
+			);
 			productName = Tourist;
 			productReference = 11DAD6BB260762F3005706C1 /* Tourist.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +241,8 @@
 				Base,
 			);
 			mainGroup = 11DAD6B2260762F3005706C1;
+			packageReferences = (
+			);
 			productRefGroup = 11DAD6BC260762F3005706C1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -140,10 +270,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11DAD6C3260762F3005706C1 /* ViewController.swift in Sources */,
+				11FBA37B260963980042F152 /* ApiClient.swift in Sources */,
+				111B03EE2614A1E200621C3B /* CLPlacemark+Extension.swift in Sources */,
+				118D0C552613C22F005DEE8B /* Config.swift in Sources */,
+				11B992282615B03F0046CB02 /* PhotoAlbumViewController+CollectionView.swift in Sources */,
+				11DAD6C3260762F3005706C1 /* TravelViewController.swift in Sources */,
+				11FBA378260961A20042F152 /* DataController.swift in Sources */,
+				11B8651C26123C190028E6E1 /* PinAnnotation.swift in Sources */,
+				11DF76CF260A97B90050FADA /* PhotoSearchResponse.swift in Sources */,
+				11B992312615B2030046CB02 /* TravelViewController+MapView.swift in Sources */,
 				11DAD6BF260762F3005706C1 /* AppDelegate.swift in Sources */,
 				11DAD6C9260762F4005706C1 /* Tourist.xcdatamodeld in Sources */,
-				11DAD6C1260762F3005706C1 /* SceneDelegate.swift in Sources */,
+				11B9922B2615B0BA0046CB02 /* PhotoAlbumViewController+MapView.swift in Sources */,
+				11B8651826122F230028E6E1 /* SceneDelegate.swift in Sources */,
+				11DF76D2260A99350050FADA /* ErrorResponse.swift in Sources */,
+				11DAD6E12607EE1A005706C1 /* PhotoAlbumViewController.swift in Sources */,
+				11498DBF260EA7DE002C9B59 /* PhotoCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,6 +313,7 @@
 /* Begin XCBuildConfiguration section */
 		11DAD6D0260762F8005706C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 116CDB2826175553000438DD /* Keys.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -232,6 +375,7 @@
 		};
 		11DAD6D1260762F8005706C1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 116CDB2826175553000438DD /* Keys.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -287,6 +431,7 @@
 		};
 		11DAD6D3260762F8005706C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 116CDB2826175553000438DD /* Keys.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -306,6 +451,7 @@
 		};
 		11DAD6D4260762F8005706C1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 116CDB2826175553000438DD /* Keys.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
