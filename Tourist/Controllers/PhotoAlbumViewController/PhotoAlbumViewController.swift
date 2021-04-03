@@ -164,11 +164,7 @@ class PhotoAlbumViewController: UIViewController{
         
     }
     
-    func showErrorAlert(message: String){
-        let alertVC = UIAlertController(title: "Error", message: message, preferredStyle: .alert)
-        alertVC.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
-        present(alertVC, animated: true, completion: nil)
-    }
+    
     
 }
 
@@ -182,10 +178,7 @@ extension PhotoAlbumViewController: NSFetchedResultsControllerDelegate{
             photoAlbumCollectionView.insertItems(at: [newIndexPath!])
         case .delete:
             photoAlbumCollectionView.deleteItems(at: [indexPath!])
-        case .update:
-            photoAlbumCollectionView.reloadItems(at: [indexPath!])
-        case .move:
-            photoAlbumCollectionView.moveItem(at: indexPath!, to: newIndexPath!)
+        default: break
         }
     }
 }

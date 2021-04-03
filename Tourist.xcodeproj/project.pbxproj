@@ -13,6 +13,7 @@
 		116CDB3526186CA3000438DD /* photos loading.png in Resources */ = {isa = PBXBuildFile; fileRef = 116CDB3226186CA2000438DD /* photos loading.png */; };
 		116CDB3626186CA3000438DD /* loaded photos.png in Resources */ = {isa = PBXBuildFile; fileRef = 116CDB3326186CA2000438DD /* loaded photos.png */; };
 		116CDB3726186CA3000438DD /* mapview.png in Resources */ = {isa = PBXBuildFile; fileRef = 116CDB3426186CA2000438DD /* mapview.png */; };
+		116CDB3B2618E218000438DD /* ViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116CDB3A2618E218000438DD /* ViewController+Extension.swift */; };
 		118D0C552613C22F005DEE8B /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118D0C542613C22E005DEE8B /* Config.swift */; };
 		11B8651826122F230028E6E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B8651726122F230028E6E1 /* SceneDelegate.swift */; };
 		11B8651C26123C190028E6E1 /* PinAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B8651B26123C190028E6E1 /* PinAnnotation.swift */; };
@@ -40,6 +41,7 @@
 		116CDB3226186CA2000438DD /* photos loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photos loading.png"; sourceTree = "<group>"; };
 		116CDB3326186CA2000438DD /* loaded photos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loaded photos.png"; sourceTree = "<group>"; };
 		116CDB3426186CA2000438DD /* mapview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapview.png; sourceTree = "<group>"; };
+		116CDB3A2618E218000438DD /* ViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Extension.swift"; sourceTree = "<group>"; };
 		118D0C542613C22E005DEE8B /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		11B8651726122F230028E6E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		11B8651B26123C190028E6E1 /* PinAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinAnnotation.swift; sourceTree = "<group>"; };
@@ -184,6 +186,7 @@
 			children = (
 				11B992242615AF8E0046CB02 /* TravelViewController */,
 				11B992232615AF5C0046CB02 /* PhotoAlbumViewController */,
+				116CDB3A2618E218000438DD /* ViewController+Extension.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -294,6 +297,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				116CDB3B2618E218000438DD /* ViewController+Extension.swift in Sources */,
 				11FBA37B260963980042F152 /* ApiClient.swift in Sources */,
 				111B03EE2614A1E200621C3B /* CLPlacemark+Extension.swift in Sources */,
 				118D0C552613C22F005DEE8B /* Config.swift in Sources */,

@@ -46,7 +46,7 @@ class ApiClient {
             case .searchPhotos(let latitude, let longitude):
                 return Endpoint.baseUrl + Endpoint.searchMethod +
                     "&api_key=" + Auth.apiKey + "&lat=\(latitude)" +
-                    "&lon=\(longitude)" + "&page=\(Pagination.pageNumber)" + "&format=json&nojsoncallback=1"
+                    "&lon=\(longitude)" + "&page=\(Pagination.pageNumber)" + "&per_page=20" + "&format=json&nojsoncallback=1"
             case .getPhoto(let serverId, let photoId, let photoSecret):
                 return Endpoint.imageBaseUrl + serverId + "/" +
                 photoId + "_" + photoSecret + ".jpg" //Image size is 500px

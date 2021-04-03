@@ -41,7 +41,7 @@ extension TravelViewController: MKMapViewDelegate{
     }
 
     func mapView(_ mapView: MKMapView, regionDidChangeAnimated animated: Bool) {
-        if (mapChangedFromUserInteraction) {
+        if mapChangedFromUserInteraction {
             Config.shared.saveRegion(mapRegion: self.mapView.region)
         }
     }
