@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		111B03EE2614A1E200621C3B /* CLPlacemark+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111B03ED2614A1E200621C3B /* CLPlacemark+Extension.swift */; };
 		11498DBF260EA7DE002C9B59 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11498DBE260EA7DE002C9B59 /* PhotoCollectionViewCell.swift */; };
+		116CDB2E26186C6B000438DD /* config.png in Resources */ = {isa = PBXBuildFile; fileRef = 116CDB2D26186C6B000438DD /* config.png */; };
+		116CDB3526186CA3000438DD /* photos loading.png in Resources */ = {isa = PBXBuildFile; fileRef = 116CDB3226186CA2000438DD /* photos loading.png */; };
+		116CDB3626186CA3000438DD /* loaded photos.png in Resources */ = {isa = PBXBuildFile; fileRef = 116CDB3326186CA2000438DD /* loaded photos.png */; };
+		116CDB3726186CA3000438DD /* mapview.png in Resources */ = {isa = PBXBuildFile; fileRef = 116CDB3426186CA2000438DD /* mapview.png */; };
 		118D0C552613C22F005DEE8B /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118D0C542613C22E005DEE8B /* Config.swift */; };
 		11B8651826122F230028E6E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B8651726122F230028E6E1 /* SceneDelegate.swift */; };
 		11B8651C26123C190028E6E1 /* PinAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B8651B26123C190028E6E1 /* PinAnnotation.swift */; };
@@ -32,6 +36,10 @@
 		111B03ED2614A1E200621C3B /* CLPlacemark+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLPlacemark+Extension.swift"; sourceTree = "<group>"; };
 		11498DBE260EA7DE002C9B59 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		116CDB2826175553000438DD /* Keys.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Keys.xcconfig; sourceTree = "<group>"; };
+		116CDB2D26186C6B000438DD /* config.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = config.png; sourceTree = "<group>"; };
+		116CDB3226186CA2000438DD /* photos loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photos loading.png"; sourceTree = "<group>"; };
+		116CDB3326186CA2000438DD /* loaded photos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loaded photos.png"; sourceTree = "<group>"; };
+		116CDB3426186CA2000438DD /* mapview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapview.png; sourceTree = "<group>"; };
 		118D0C542613C22E005DEE8B /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		11B8651726122F230028E6E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		11B8651B26123C190028E6E1 /* PinAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinAnnotation.swift; sourceTree = "<group>"; };
@@ -71,6 +79,17 @@
 				118D0C542613C22E005DEE8B /* Config.swift */,
 			);
 			path = Util;
+			sourceTree = "<group>";
+		};
+		116CDB3026186C7B000438DD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				116CDB3326186CA2000438DD /* loaded photos.png */,
+				116CDB3226186CA2000438DD /* photos loading.png */,
+				116CDB3426186CA2000438DD /* mapview.png */,
+				116CDB2D26186C6B000438DD /* config.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 		11B992232615AF5C0046CB02 /* PhotoAlbumViewController */ = {
@@ -120,6 +139,7 @@
 		11DAD6BD260762F3005706C1 /* Tourist */ = {
 			isa = PBXGroup;
 			children = (
+				116CDB3026186C7B000438DD /* Images */,
 				11DAD6CA260762F8005706C1 /* Assets.xcassets */,
 				11DAD6CF260762F8005706C1 /* Info.plist */,
 				11B992252615AFA90046CB02 /* Storyboard */,
@@ -260,6 +280,10 @@
 				11DAD6CE260762F8005706C1 /* LaunchScreen.storyboard in Resources */,
 				11DAD6CB260762F8005706C1 /* Assets.xcassets in Resources */,
 				11DAD6C6260762F3005706C1 /* Main.storyboard in Resources */,
+				116CDB3626186CA3000438DD /* loaded photos.png in Resources */,
+				116CDB3726186CA3000438DD /* mapview.png in Resources */,
+				116CDB2E26186C6B000438DD /* config.png in Resources */,
+				116CDB3526186CA3000438DD /* photos loading.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
