@@ -1,0 +1,10 @@
+//
+//  Keys.xcconfig
+//  Tourist
+//
+//  Created by Ismail on 02/04/2021.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+FLICKR_API_KEY = c1f723f5981336da8244e328a7d87922
